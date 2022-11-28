@@ -1,0 +1,151 @@
+body{
+    background-color: rgba(245,245,248,255);
+    font-family: Avenir Next,Roboto,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans;
+}
+header{
+    background-color: rgba(255,255,255,255);
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+
+}
+header img{
+    margin-left: 90px;
+}
+nav{
+    margin-top: 20px;
+    
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; */
+    word-spacing: 15px;
+    
+    
+}
+a{
+    background-color: rgba(245,247,249,255);
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px;
+}
+.align{
+    text-align: center; 
+    font-weight: 600; 
+    font-size: 24px; 
+    position: relative; 
+    bottom: 20px;
+}
+.Box {
+    background-color: rgba(29,43,82,255);
+    height: 210px;
+    width: 100%;
+}
+h3 {
+    color: aliceblue;
+    margin-left: 70px;
+    padding-top: 40px;
+
+}
+.dark {
+    background-color: rgba(40,57,100,255);
+    height: 140px;
+    width: 260px;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.purple {
+    background-color: rgba(82,52,101,255);
+    height: 140px;
+    width: 260px;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.sky {
+    background-color: rgba(60,146,255,255);
+    height: 140px;
+    width: 260px;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.brown {
+    background-color: rgba(133,60,79,255);
+    height: 140px;
+    width: 260px;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.content{
+    height: 20px;
+}
+.boxs p{
+    color:white ;
+}
+.allbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+p {
+    color: aliceblue;
+}
+.small p{
+    color: black;
+}
+.small {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 180px;
+    margin-left: 80px;
+
+
+}
+.Box2 {
+    display: flex;
+    justify-content: space-around;
+}
+.smalls{
+    margin: 10px;
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.smalls img{
+    height: 50px;
+    width: 60px;
+}
+
+h3:hover{
+    font-size: 30px;
+}
